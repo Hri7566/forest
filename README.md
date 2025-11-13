@@ -1,0 +1,21 @@
+# forest
+
+## About
+
+This is a simple forest terminal screen saver. It simulates animals in a forest with grass.
+
+## Installation
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun .
+```
+
+This project was created using `bun init` in bun v1.3.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

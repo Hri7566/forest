@@ -1,6 +1,6 @@
-import { Entity } from "../util/Entity";
+import { Lifeform } from "../Lifeform";
 
-export abstract class Animal extends Entity {
+export abstract class Animal extends Lifeform {
     public tick(dt: number) {
         const r = Math.random();
         const movementOpportunity = r < 1 / 4;

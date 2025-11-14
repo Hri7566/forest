@@ -1,4 +1,4 @@
-import { Animal } from "./Animal";
+import { Animal } from "../Animal";
 
 export class Deer extends Animal {
     public override toString(): string {

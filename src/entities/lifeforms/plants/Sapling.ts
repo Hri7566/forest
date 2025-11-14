@@ -1,4 +1,4 @@
-import { Plant } from "./Plant";
+import { Plant } from "../Plant";
 
 export class Sapling extends Plant {
     public override toString(): string {

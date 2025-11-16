@@ -5,6 +5,7 @@ import { Rabbit } from "./entities/lifeforms/animals/Rabbit";
 import { Squirrel } from "./entities/lifeforms/animals/Squirrel";
 import { Tree } from "./entities/lifeforms/plants/Tree";
 import { Rose } from "./entities/lifeforms/plants/flowers/Rose";
+import { Turtle } from "./entities/lifeforms/animals/Turtle";
 
 const forest = new Forest();
 
@@ -32,8 +33,9 @@ spawnEntity(forest, Tree, 30);
 spawnEntity(forest, Rose, 10);
 
 spawnEntity(forest, Deer, 8);
-spawnEntity(forest, Squirrel, 5);
 spawnEntity(forest, Rabbit, 10);
+spawnEntity(forest, Squirrel, 5);
+spawnEntity(forest, Turtle, 3);
 
 process.stdout.write("\x1b[?25l");
 

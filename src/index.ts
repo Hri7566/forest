@@ -6,6 +6,7 @@ import { Squirrel } from "./entities/lifeforms/animals/Squirrel";
 import { Tree } from "./entities/lifeforms/plants/Tree";
 import { Rose } from "./entities/lifeforms/plants/flowers/Rose";
 import { Turtle } from "./entities/lifeforms/animals/Turtle";
+import { Tulip } from "./entities/lifeforms/plants/flowers/Tulip";
 
 const forest = new Forest();
 
@@ -30,7 +31,8 @@ function spawnEntity<T>(parent: Entity | Forest, EntityClass: new (parent: Entit
 }
 
 spawnEntity(forest, Tree, 30);
-spawnEntity(forest, Rose, 10);
+spawnEntity(forest, Rose, 5);
+spawnEntity(forest, Tulip, 5);
 
 spawnEntity(forest, Deer, 8);
 spawnEntity(forest, Rabbit, 10);
